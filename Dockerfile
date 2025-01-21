@@ -23,6 +23,6 @@ COPY . .
 
 RUN composer install --no-interaction --no-scripts --prefer-dist
 
-EXPOSE 9001
+EXPOSE 9090
 
 CMD ["php-fpm"]
